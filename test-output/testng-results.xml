@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55108" started-at="2022-06-14T10:55:39Z" finished-at="2022-06-14T10:56:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55108" started-at="2022-06-14T10:55:39Z" finished-at="2022-06-14T10:56:34Z">
+      <class name="com.TestLayer.multiwindosTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.TestLayer.multiwindosTest@146ba0ac]" name="setUp" is-config="true" duration-ms="52231" started-at="2022-06-14T16:25:39Z" finished-at="2022-06-14T16:26:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="unameIsDisplayed()[pri:1, instance:com.TestLayer.multiwindosTest@146ba0ac]" name="unameIsDisplayed" duration-ms="850" started-at="2022-06-14T16:26:31Z" finished-at="2022-06-14T16:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unameIsDisplayed -->
+        <test-method status="PASS" signature="unameIsEnabled()[pri:2, instance:com.TestLayer.multiwindosTest@146ba0ac]" name="unameIsEnabled" duration-ms="86" started-at="2022-06-14T16:26:32Z" finished-at="2022-06-14T16:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unameIsEnabled -->
+        <test-method status="PASS" signature="unameTextbox()[pri:3, instance:com.TestLayer.multiwindosTest@146ba0ac]" name="unameTextbox" duration-ms="435" started-at="2022-06-14T16:26:32Z" finished-at="2022-06-14T16:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unameTextbox -->
+        <test-method status="PASS" signature="passIsDisplayed()[pri:4, instance:com.TestLayer.multiwindosTest@146ba0ac]" name="passIsDisplayed" duration-ms="95" started-at="2022-06-14T16:26:33Z" finished-at="2022-06-14T16:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passIsDisplayed -->
+        <test-method status="PASS" signature="passIsEnabled()[pri:5, instance:com.TestLayer.multiwindosTest@146ba0ac]" name="passIsEnabled" duration-ms="32" started-at="2022-06-14T16:26:33Z" finished-at="2022-06-14T16:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passIsEnabled -->
+        <test-method status="PASS" signature="passTextbox()[pri:6, instance:com.TestLayer.multiwindosTest@146ba0ac]" name="passTextbox" duration-ms="128" started-at="2022-06-14T16:26:33Z" finished-at="2022-06-14T16:26:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passTextbox -->
+        <test-method status="PASS" signature="submitBtn()[pri:7, instance:com.TestLayer.multiwindosTest@146ba0ac]" name="submitBtn" duration-ms="689" started-at="2022-06-14T16:26:33Z" finished-at="2022-06-14T16:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitBtn -->
+        <test-method status="PASS" signature="newWindowBtn()[pri:8, instance:com.TestLayer.multiwindosTest@146ba0ac]" name="newWindowBtn" duration-ms="485" started-at="2022-06-14T16:26:34Z" finished-at="2022-06-14T16:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newWindowBtn -->
+      </class> <!-- com.TestLayer.multiwindosTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
