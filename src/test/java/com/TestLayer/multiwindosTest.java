@@ -2,23 +2,21 @@ package com.TestLayer;
 
 
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.BaseLayer.BaseClass;
+import com.BaseLayer.Baseclass;
 import com.PageLayer.multiwindos;
 
 
-
-
-
-public class multiwindosTest extends BaseClass {
+public class multiwindosTest extends Baseclass {
 	private multiwindos mw;
 	
 	@BeforeClass
 	public void setUp() {
-		BaseClass.inilitization();
-	} 
+		Baseclass.inilitization();
+		} 
 	
 	@Test (priority=1)
 	public void unameIsDisplayed(){
@@ -62,6 +60,11 @@ public class multiwindosTest extends BaseClass {
 		driver.navigate().back();
 		mw.newWindowFramebtn();
 		Assert.assertEquals(driver.getTitle(), "Multiple Window code");
+	}
+	
+	@AfterClass
+	public void end(){
+		driver.quit();
 	}
 
 }

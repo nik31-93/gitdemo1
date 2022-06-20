@@ -1,14 +1,13 @@
 package com.BaseLayer;
 
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class BaseClass {
+public class Baseclass {
 
 	public static WebDriver driver;
-	public static Properties prop;
 
 	public static void inilitization() {
 		
@@ -16,13 +15,12 @@ public class BaseClass {
 		driver = new ChromeDriver();
 		 
 		driver.manage().window().maximize();
-		driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(60,TimeUnit.SECONDS);
 
-		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
 	
 		driver.manage().deleteAllCookies();
 		driver.get("file:///D:/pdf/multiplewindow.html");
-				
 	}
 
 }

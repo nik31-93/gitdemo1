@@ -4,9 +4,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.BaseLayer.BaseClass;
+import com.BaseLayer.Baseclass;
 
-public class multiwindos extends BaseClass {
+
+
+public class multiwindos extends Baseclass {
 	@FindBy (id="name")
 	WebElement username;
 	
